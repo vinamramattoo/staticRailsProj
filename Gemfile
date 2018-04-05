@@ -12,7 +12,10 @@
 # gem 'mysql2', '>= 0.3.18', '< 0.6.0'
 
 source 'https://rubygems.org'
+source 'https://rubygems.org'
 
+
+gem 'bootstrap-sass', '3.3.7'
 gem 'rails',        '5.1.4'
 gem 'puma',         '3.9.1'
 # Use mysql as the database for Active Record
