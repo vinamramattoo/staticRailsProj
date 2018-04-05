@@ -16,6 +16,7 @@ source 'https://rubygems.org'
 
 
 gem 'bootstrap-sass', '3.3.7'
+gem 'bcrypt', '3.1.11', platforms: [:ruby, :x64_mingw]
 gem 'rails',        '5.1.4'
 gem 'puma',         '3.9.1'
 # Use mysql as the database for Active Record
