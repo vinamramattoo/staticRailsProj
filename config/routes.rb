@@ -1,8 +1,10 @@
 Rails.application.routes.draw do
+
+=begin
+  start from  Listing 10.61:
+=end
   get 'sessions/new'
-
   get 'users/new'
-
   root 'static_pages#home'
   get  '/help',    to: 'static_pages#help'
   get  '/about',   to: 'static_pages#about'
