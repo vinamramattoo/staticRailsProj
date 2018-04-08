@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="Rails staticRailsProj: test" uuid="16319126-70e6-4630-9ab1-29b15a9ba9d0">
+    <data-source source="LOCAL" name="Rails staticRailsProj: development" uuid="6f8056c8-728c-44b4-ad66-1eb5a14e8627">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1/sample_app_test</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1:3306/sample_app_development</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
@@ -17,13 +17,13 @@
         <property name="yearIsDateType" value="false" />
       </driver-properties>
     </data-source>
-    <data-source source="LOCAL" name="Rails staticRailsProj: development" uuid="4304aac4-1e0b-4f99-8daa-948776744aa2">
+    <data-source source="LOCAL" name="Rails staticRailsProj: test" uuid="8523c6b2-bff8-46c7-a1f8-f73857eda82f">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
       <imported>true</imported>
       <remarks>$PROJECT_DIR$/config/database.yml</remarks>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://127.0.0.1:3306/sample_app_development</jdbc-url>
+      <jdbc-url>jdbc:mysql://127.0.0.1/sample_app_test</jdbc-url>
       <driver-properties>
         <property name="autoReconnect" value="true" />
         <property name="zeroDateTimeBehavior" value="convertToNull" />
